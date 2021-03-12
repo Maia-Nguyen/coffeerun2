@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>CoffeRun</title>
+    <title>CoffeeRun</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
+
 <body class="container">
     <header>
         <h1>CoffeeRun</h1>
@@ -19,7 +21,8 @@
                     </div>
                     <div class="form-group">
                         <label for="emailInput">Email</label>
-                        <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="dr@who.com">
+                        <input class="form-control" type="email" name="emailAddress" id="emailInput" value=""
+                            placeholder="dr@who.com">
                     </div>
                     <div class="radio">
                         <label>
@@ -57,11 +60,22 @@
                 </form>
             </div>
         </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>Pending Orders:</h4>
+                <div data-coffee-order="checklist">
+
+                </div>
+            </div>
+        </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+    <script src="scripts/checklist.js" charset="utf-8"></script>
     <script src="scripts/formhandler.js" charset="utf-8"></script>
     <script src="scripts/datastore.js" charset="utf-8"></script>
     <script src="scripts/truck.js" charset="utf-8"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
 </body>
+
 </html>
